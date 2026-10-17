@@ -18,6 +18,7 @@ main{max-width:720px;margin:0 auto;padding:0 14px 50px}
 .card{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:16px;margin:12px 0;text-align:center}
 .btn{display:block;padding:14px;border-radius:10px;background:var(--ac);color:#fff;font-size:17px;text-decoration:none}
 .note{font-size:13px;color:var(--sub);margin:8px 0 0}
+.warn{background:#fff4e5;border:1px solid #f0d9b5;color:#7a5a20;border-radius:10px;padding:10px;font-size:13px;margin:0 0 12px;text-align:left}
 </style>
 </head>
 <body>
@@ -30,14 +31,15 @@ main{max-width:720px;margin:0 auto;padding:0 14px 50px}
 </header>
 <main>
   <section class="card">
-    <a class="btn" href="https://drive.google.com/drive/folders/14n1PtZBfHzPij5OoEY44BC0fg4HHdZU2" target="_blank" rel="noopener">📷 사진 올리기</a>
-    <p class="note">구글 계정이 있으면 누구나 올릴 수 있어요.<br>링크를 열고 폴더에 사진을 추가해 주세요.</p>
+    <div class="warn">⚠️ <b>구글 계정으로 로그인</b>해야 사진을 올릴 수 있어요.<br>카카오톡에서 열었다면 오른쪽 위 메뉴(⋮)에서 <b>다른 브라우저로 열기</b>를 눌러 주세요.</div>
+    <a class="btn" href="https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F14n1PtZBfHzPij5OoEY44BC0fg4HHdZU2" target="_blank" rel="noopener">📷 구글 로그인하고 사진 올리기</a>
+    <p class="note">로그인 후 폴더가 열리면 사진을 추가해 주세요.</p>
   </section>
   <section class="card">
     <a class="btn" style="background:transparent;color:var(--ac);border:1px solid var(--ac)" href="https://drive.google.com/drive/folders/14n1PtZBfHzPij5OoEY44BC0fg4HHdZU2" target="_blank" rel="noopener">🖼 올라온 사진 보기</a>
     <p class="note">하객들이 올린 사진을 함께 볼 수 있어요.</p>
   </section>
-  <p class="note" style="text-align:center;opacity:.5">v5</p>
+  <p class="note" style="text-align:center;opacity:.5">v6</p>
 </main>
 </body>
 </html>
